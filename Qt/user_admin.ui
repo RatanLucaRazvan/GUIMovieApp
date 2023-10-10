@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user_admin</class>
+ <widget class="QWidget" name="user_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>user_admin</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Choose a mode</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="HTMLButton">
+         <property name="text">
+          <string>HTML file</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="CSVButton">
+         <property name="text">
+          <string>CSV file</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Admin Mode</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>User Mode</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>user_admin</receiver>
+   <slot>showAdmin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>262</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>user_admin</receiver>
+   <slot>showUser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>85</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HTMLButton</sender>
+   <signal>clicked()</signal>
+   <receiver>user_admin</receiver>
+   <slot>initializeHTMLWatchList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>182</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>CSVButton</sender>
+   <signal>clicked()</signal>
+   <receiver>user_admin</receiver>
+   <slot>initializeCSVWatchList()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>122</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>showAdmin()</slot>
+  <slot>showUser()</slot>
+  <slot>initializeHTMLWatchList()</slot>
+  <slot>initializeCSVWatchList()</slot>
+ </slots>
+</ui>

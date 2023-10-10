@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppGUI</class>
+ <widget class="QWidget" name="AppGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AppGUI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListWidget" name="movielistwidget"/>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="title">
+         <property name="text">
+          <string>Title</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="titleLineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="genre">
+         <property name="text">
+          <string>Genre</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="genreLineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="yearofrelease">
+         <property name="text">
+          <string>Year of Release</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="yearOfReleaseLineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="numberoflikes">
+         <property name="text">
+          <string>Number of Likes</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="numberOfLikesLineEdit"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="trailer">
+         <property name="text">
+          <string>Trailer</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="trailerLineEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="addButton">
+         <property name="text">
+          <string>Add</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Undo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="deleteButton">
+         <property name="text">
+          <string>Delete</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="updateButton">
+         <property name="text">
+          <string>Update</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AppGUI</receiver>
+   <slot>addMovie()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>102</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>378</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>updateButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AppGUI</receiver>
+   <slot>updateMovie()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>503</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>378</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>movielistwidget</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>AppGUI</receiver>
+   <slot>elementClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>216</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>379</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AppGUI</receiver>
+   <slot>makeUndo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>addMovie()</slot>
+  <slot>updateMovie()</slot>
+  <slot>elementClick()</slot>
+  <slot>makeUndo()</slot>
+ </slots>
+</ui>

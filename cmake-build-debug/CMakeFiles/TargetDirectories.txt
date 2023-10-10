@@ -1,0 +1,5 @@
+C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/CMakeFiles/a89_RatanLucaRazvan.dir
+C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/CMakeFiles/a89_RatanLucaRazvan_autogen_timestamp_deps.dir
+C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/CMakeFiles/a89_RatanLucaRazvan_autogen.dir

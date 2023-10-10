@@ -1,0 +1,64 @@
+# ninja log v5
+21	1340	7186586056645524	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+25	340	7093192907836233	C:/Users/Ratan Luca/Documents/GitHub/a89-RatanLucaRazvan/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	e259be5f307e6862
+21	1340	7186586056645524	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+1646	11186	7186576289556165	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user.cpp.obj	e788d4236d36b1e2
+1612	8825	7186576265911699	CMakeFiles/a89_RatanLucaRazvan.dir/GUI.cpp.obj	a364aee305a0a8a4
+25	340	7093192907836233	C:/Users/Ratan Luca/Documents/GitHub/a89-RatanLucaRazvan/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	e259be5f307e6862
+1570	1760	7186568435392647	CMakeFiles/a89_RatanLucaRazvan.dir/test_dynamic_vector.cpp.obj	b4e15809ada700b7
+1341	6262	7186586107394824	CMakeFiles/a89_RatanLucaRazvan.dir/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp.obj	f26606c307f85498
+1353	6301	7186586107769357	CMakeFiles/a89_RatanLucaRazvan.dir/main.cpp.obj	b833f92e93784eef
+1497	6964	7186576247324026	CMakeFiles/a89_RatanLucaRazvan.dir/Repository.cpp.obj	69ba32e693fae63f
+1599	2597	7186568443906238	CMakeFiles/a89_RatanLucaRazvan.dir/test_movie.cpp.obj	d95e987b90ae9fb6
+1519	2747	7186568445408385	CMakeFiles/a89_RatanLucaRazvan.dir/RepoException.cpp.obj	7b0567f6b81f8a99
+1554	8829	7186576265955538	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/appgui.cpp.obj	abbc21d09a930d8f
+387	1675	7186568755458858	CMakeFiles/a89_RatanLucaRazvan.dir/Movie.cpp.obj	caf5199bceed2630
+1531	3043	7186568448361496	CMakeFiles/a89_RatanLucaRazvan.dir/MovieValidator.cpp.obj	8ef9e03af5194b9
+1585	3276	7186576209735786	CMakeFiles/a89_RatanLucaRazvan.dir/test_wath_list.cpp.obj	647f573b171b5cda
+1539	6911	7186576246797959	CMakeFiles/a89_RatanLucaRazvan.dir/Watchlist.cpp.obj	d7f744a47679779d
+1511	6572	7186576243397074	CMakeFiles/a89_RatanLucaRazvan.dir/HTMLWatchList.cpp.obj	29c3081e1b094197
+1526	4574	7186576223320689	CMakeFiles/a89_RatanLucaRazvan.dir/Service.cpp.obj	da081d83adf90f18
+1584	1744	7186568435361197	CMakeFiles/a89_RatanLucaRazvan.dir/test_service.cpp.obj	cae49984c89ff966
+1598	3435	7186576211946035	CMakeFiles/a89_RatanLucaRazvan.dir/test_repository.cpp.obj	38b7c9ffba9f0ac0
+1472	6558	7186576243222775	CMakeFiles/a89_RatanLucaRazvan.dir/CSVWatchList.cpp.obj	41256e6319aabc40
+1628	1826	7186568436141167	CMakeFiles/a89_RatanLucaRazvan.dir/UI.cpp.obj	8c232b3921eaba76
+11186	12821	7186576302278758	a89_RatanLucaRazvan.exe	e42ac003eea35bd4
+1365	6245	7186586107240684	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user_admin.cpp.obj	43f2ffc4f1c48921
+1629	3343	7186576211094407	CMakeFiles/a89_RatanLucaRazvan.dir/Undo.cpp.obj	d58ffc0f357b5920
+21	1340	7186586056645524	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+430	553	7186568744254345	CMakeFiles/a89_RatanLucaRazvan.dir/Redo.cpp.obj	5a893ae5eea56ca3
+3277	8240	7186576260085349	CMakeFiles/a89_RatanLucaRazvan.dir/MovieTableModel.cpp.obj	8e991f0667f1452e
+21	1340	7186586056645524	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+11	1168	7186589436861532	build.ninja	e4027d8a82e74456
+6	1191	7186589436861532	build.ninja	e4027d8a82e74456
+20	1246	7186589450201027	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+20	1246	7186589450201027	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+20	1246	7186589450201027	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+20	1246	7186589450201027	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+1259	6252	7186589501423560	CMakeFiles/a89_RatanLucaRazvan.dir/main.cpp.obj	b833f92e93784eef
+1247	6372	7186589502642150	CMakeFiles/a89_RatanLucaRazvan.dir/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp.obj	f26606c307f85498
+1276	8602	7186589524917033	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user.cpp.obj	e788d4236d36b1e2
+20	322	7186589883407156	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+20	322	7186589883407156	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+20	322	7186589883407156	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+20	322	7186589883407156	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+343	4554	7186589925731343	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user_admin.cpp.obj	43f2ffc4f1c48921
+4556	5669	7186589933618737	a89_RatanLucaRazvan.exe	cb7c33d281896065
+19	336	7186591573253514	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+19	336	7186591573253514	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+19	336	7186591573253514	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+19	336	7186591573253514	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+355	7022	7186591640090518	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user.cpp.obj	e788d4236d36b1e2
+7023	8100	7186591647500228	a89_RatanLucaRazvan.exe	cb7c33d281896065
+24	406	7186593508289107	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+24	406	7186593508289107	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+24	406	7186593508289107	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+24	406	7186593508289107	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+427	6820	7186593572402201	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user.cpp.obj	e788d4236d36b1e2
+6821	7938	7186593580069510	a89_RatanLucaRazvan.exe	cb7c33d281896065
+22	334	7186595928573382	a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+22	334	7186595928573382	a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+22	334	7186595928573382	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/timestamp	409d8ec02a320c40
+22	334	7186595928573382	C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug/a89_RatanLucaRazvan_autogen/mocs_compilation.cpp	409d8ec02a320c40
+355	6971	7186595994913241	CMakeFiles/a89_RatanLucaRazvan.dir/Qt/user.cpp.obj	e788d4236d36b1e2
+6972	8107	7186596002836364	a89_RatanLucaRazvan.exe	cb7c33d281896065

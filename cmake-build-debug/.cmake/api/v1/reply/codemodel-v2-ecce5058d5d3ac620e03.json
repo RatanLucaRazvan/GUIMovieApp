@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "a89_RatanLucaRazvan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "a89_RatanLucaRazvan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a89_RatanLucaRazvan-Debug-39acfc907cecb0d2d91a.json",
+					"name" : "a89_RatanLucaRazvan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a89_RatanLucaRazvan_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a89_RatanLucaRazvan_autogen-Debug-08b1e65ed58dd76cdf7d.json",
+					"name" : "a89_RatanLucaRazvan_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "a89_RatanLucaRazvan_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-a89_RatanLucaRazvan_autogen_timestamp_deps-Debug-673d7c81e322a7a0fd27.json",
+					"name" : "a89_RatanLucaRazvan_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp/cmake-build-debug",
+		"source" : "C:/Users/Ratan Luca/Documents/GitHub/GUIMovieApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
